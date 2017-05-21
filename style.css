@@ -1,0 +1,100 @@
+html{
+    height: 100%;
+    width: 100%;
+    background: url("bc.jpg");
+    background-repeat: repeat;
+    background-attachment: fixed;
+
+    
+}
+a:hover{
+    background: rgba(25, 25, 25, 1);
+
+}
+body{
+    margin: 2cm 2cm 2cm 2cm;
+    border: 80px solid black;
+    border-image: url("bc_bambo.png") 100 round;
+
+    padding: 15px;
+    width: 40%;
+    text-align: center;
+
+    
+}
+footer{
+    margin: auto;
+    width: 50%;
+    border: 50px solid black;
+    border-image: url("bc_bambo.png") 100 round;
+}
+
+
+p{
+    margin: 0.5cm 0.5cm 0.5cm 0.5cm;
+    font-family: "Times New Roman", Times, serif;
+    text-align: left;
+}
+li{
+    list-style-type: square;
+}
+div.wrapper {
+    width: 60%;
+    margin: 2cm 2cm 2cm 2cm;
+    border: 80px solid black;
+    border-image: url("bc_bambo.png") 100 round;
+
+}
+.sidebar {
+    position:fixed;
+    width:300px;
+    height:100px;
+    left:55%;
+    top:10%;
+    text-align: left;
+
+    
+}
+.page-wrapper {
+    background: rgba(25, 25, 25, 0.8);
+
+}
+*{
+    color: white;
+}
+h1{
+    border: 10px solid transparent;
+    padding: 0px 15px 10px 15px;
+    width: 80%;
+    text-align: center;
+    font-style: italic;
+    width: 93%;
+    background: rgba(25, 25, 25, 0.8);
+
+}
+h3{
+    background: rgba(25, 25, 25, 0.8);
+    font-style: italic;
+}
+.zen-resources {
+    background: rgba(25, 25, 25, 0.8);
+}
+.design-archives {
+    background: rgba(25, 25, 25, 0.8);
+}
+.design-selection {
+    background: rgba(25, 25, 25, 0.8);
+}
+#zen-intro {
+ 
+    color: white;
+
+}
+#zen-summary{
+    margin: 0cm 4cm 2cm 4cm;
+    font-style: italic;
+}
+#zen-preamble{
+    
+
+}
